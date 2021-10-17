@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Index from './Components/LifeCycle/Index';
+import DidMount from './Components/LifeCycle/DidMount';
+// import Main from './Components/Main'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {/* <Main/> */}
+   {/* <Index/> */}
+   <DidMount/>
     </div>
   );
 }
