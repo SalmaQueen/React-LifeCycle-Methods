@@ -9,7 +9,7 @@ export default class Index extends Component {
         super(props);
         this.state={
             todo:{},
-            age:34
+            // age:34
         }
     }
 

@@ -1,0 +1,28 @@
+.wrappers::before{
+    height:600px;
+    width:100%;
+    left: 0;
+    right: 0;
+    background-color: purple;
+    mix-blend-mode: overlay;
+    /* margin-top: 1rem; */
+    position: absolute;
+    content: "";
+    z-index: 2;
+
+}
+img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.carousel-inner {
+    position: relative;
+    z-index: 1;
+
+ 
+    height:600px;
+    width:100vw !important;
+   
+
+}
